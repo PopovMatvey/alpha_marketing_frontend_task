@@ -1,0 +1,56 @@
+.pagecrm_our_crms-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pagecrm_our_crms-container>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 340px;
+    width: 95%;
+    border-radius: 10px;
+    border: 1px solid #9400FF;
+    box-shadow: 0px 0px 20px #D795FF;
+}
+
+.pagecrm_our_crms-container_item-text {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    height: 190px;
+    gap: 10px;
+    background: #48057280;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.pagecrm_our_crms-container_item-text h4 {
+    font-weight: bold;
+    background: -webkit-linear-gradient(330deg, #B195FF, #E9C6FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pagecrm_our_crms-container_item-text ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.pagecrm_our_crms-container_item-text li {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    padding: 0px;
+    font-size: 12px;
+    color: #FFF;
+}
+
+.pagecrm_our_crms-container_item-text li::before {
+    content: url("../images/tools/mark.svg");
+}

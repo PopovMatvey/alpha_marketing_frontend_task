@@ -1,10 +1,9 @@
 main {
     margin: 30px 0px;
-    height: 120vh;
 }
 
 .pagecrm_first-page_container {
-    margin: 30px 0px;
+    /* padding: 30px 0px; */
 }
 
 .pagecrm_first-page_container {
@@ -28,6 +27,7 @@ main {
     background: rgba(29, 1, 65, 0.3);
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    z-index: 2;
 }
 
 .pagecrm_first-page__tools button {
@@ -38,6 +38,7 @@ main {
 
 .pagecrm_first-page__tools img {
     filter: drop-shadow(0px 0px 10.6176px #00FFE1) drop-shadow(0px 0px 3.0336px #00FFE1) drop-shadow(0px 0px 1.5168px #00FFE1);
+
     transition: 1s all;
 }
 
@@ -55,7 +56,7 @@ main {
     align-items: center;
 }
 
-.pagecrm_main-button{
+.pagecrm_main-button {
     font-style: normal;
     text-transform: uppercase;
     background: linear-gradient(#6d5289e6, #6d5289e6) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
@@ -68,7 +69,7 @@ main {
     transition: 1s all;
 }
 
-.pagecrm_main-button:hover{
+.pagecrm_main-button:hover {
     cursor: pointer;
     filter: drop-shadow(0px 0px 3.6176px #00FFE1) drop-shadow(0px 0px 5.0336px #00FFE1) drop-shadow(0px 0px 1.5168px #00FFE1);
 }

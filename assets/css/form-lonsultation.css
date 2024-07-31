@@ -1,0 +1,63 @@
+.pagecrm_form-konsultation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #4805727d;
+    margin: 50px 5px 0px 5px;
+    border-radius: 1px solid #9400FF;
+    border: 1px solid #9400FF;
+    border-radius: 32px;
+    padding: 44px 15px;
+    gap: 20px;
+}
+
+.pagecrm_form-konsultation h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #BB6BD9;
+}
+
+.pagecrm_form-konsultation span {
+    font-family: "PlayRegular";
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.pagecrm_form-konsultation input {
+    padding: 15px 20px;
+    border: 1px solid #9400FF;
+    border-radius: 10px;
+    width: 95%;
+    /* color: #FFF; */
+}
+
+.pagecrm_form-konsultation form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.input-field {
+    color: #FFF;
+    background: none;
+}
+
+.submit-button {
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    background: #1E0044;
+}
+
+textarea {
+    border: 1px solid #9400FF;
+    background: none;
+    width: 95%;
+    padding: 50px 20px;
+}
