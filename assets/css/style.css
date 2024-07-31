@@ -1,0 +1,46 @@
+body {
+    font-family: "PlayRegular";
+    background: url("../images/bg_d.webp") 0% 0% / auto 100% no-repeat;
+    padding: 10px;
+    min-width: 320px;
+}
+
+@media screen and (min-width:990px) {
+    body {
+        padding: 100px;
+    }
+}
+
+h1,
+h2 {
+    font-family: "PlayBold";
+    color: #FFF;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 17px;
+    background: -webkit-linear-gradient(330deg, #FFF, #D795FF, #7BC2FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (min-width:990px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 36px;
+    }
+}

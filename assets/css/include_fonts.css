@@ -1,0 +1,11 @@
+/* Play Regular */
+@font-face {
+    font-family: 'PlayRegular';
+    src: url('../font/Play/Play-Regular.ttf');
+}
+
+/* Play Bold */
+@font-face {
+    font-family: 'PlayBold';
+    src: url('../font/Play/Play-Bold.ttf');
+}

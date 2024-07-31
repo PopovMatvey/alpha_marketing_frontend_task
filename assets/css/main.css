@@ -1,0 +1,35 @@
+main {
+    margin: 50px 0px;
+}
+
+main img {
+    width: 80%;
+    height: auto;
+}
+
+.pagecrm_first-page_container {
+    border: 1px solid white;
+    margin: 30px 0px;
+}
+
+.pagecrm_first-page_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagecrm_first-page__tools {
+    /* height: 100px; */
+    width: 59ox;
+    /* width: 50px; */
+}
+
+.pagecrm_first-page_container button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(29, 1, 65, 0.3);
+    border: 1px solid white;
+
+}
