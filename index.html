@@ -12,26 +12,147 @@
         <title>Альфа маркетиг Услуги/CRM</title>
     </head>
     <body>
-        <header></header>
-        <main>
-            <div class="pagecrm_first-page">
-                <h1>CRM</h1>
-                <div class="pagecrm_first-page_container">
-                    <div class="pagecrm_first-page__image">
-                        <img src="./assets/images/first_image.svg" alt="Начальное изображение">
+        <header class="pagecrm_header-mobile">
+            <div class="pagecrm_header__row">
+                <div class="pagecrm_header__logo">
+                    <img src="./assets/images/logo.svg" alt="Логотип">
+                </div>
+                <div class="pagecrm_first_geader__contacts___phone">
+                    <a href="tel:88124095222">
+                        8 812 409-52-22
+                    </a>
+                </div>
+            </div>
+            <div class="pagecrm_header__row">
+                <button>
+                    <img src="./assets/images/tools/gumburger.svg"
+                        alt="Иконка гамбургера">
+                </button>
+                <div class="pagecrm_header__inputfield">
+                    <img src="./assets/images/tools/lupa.svg" alt="Иконка лупы">
+                    <input type="text">
+                </div>
+            </div>
+            <!-- <div class="pagecrm_header__row">
+                <div class="pagecrm_first_header__menu">
+                    <ul>
+                        <li>
+                            <span>Услуги</span>
+                        </li>
+                        <li>
+                            <span>Кейсы</span>
+                        </li>
+                        <li>
+                            <span>Ещё</span>
+                        </li>
+                    </ul>
+                </div>
+            </div> -->
+            <!-- <div class="pagecrm_first_header__menu">
+                    <ul>
+                        <li>
+                            <span>Услуги</span>
+                        </li>
+                        <li>
+                            <span>Кейсы</span>
+                        </li>
+                        <li>
+                            <span>Ещё</span>
+                        </li>
+                        <li>
+                            <img src alt="Иконка лупы">
+                        </li>
+                    </ul>
+                </div> -->
+            <div class="pagecrm_header__row">
+                <div class="pagecrm_header__navigation">
+                    <a href="https://alpham.pro/">Главная</a>
+                    <img src="./assets/images/tools/arrow_right.svg"
+                        alt="Иконка стрелочики">
+                    <a href="https://alpham.pro/services/">Услуги Альфа
+                        маркетинг</a>
+                    <img src="./assets/images/tools/arrow_right.svg"
+                        alt="Иконка стрелочики">
+                    <a href="#" class="active">CRM</a>
+                </div>
+            </div>
+        </header>
+        <header class="pagecrm_header-desktop">
+            <div class="pagecrm_header__row">
+                <div class="pagecrm_header__logo">
+                    <img src="./assets/images/logo.svg" alt="Логотип">
+                </div>
+                <div class="pagecrm_first_geader__contacts___phone">
+                    <a href="tel:88124095222">
+                        <span>8 812 409-52-22</span>
+                    </a>
+                </div>
+                <div class="pagecrm_first_header__menu">
+                    <ul>
+                        <li>
+                            <span>Услуги</span>
+                        </li>
+                        <li>
+                            <span>Кейсы</span>
+                        </li>
+                        <li>
+                            <span>Ещё</span>
+                        </li>
+                        <li>
+                            <img src alt="Иконка лупы">
+                        </li>
+                    </ul>
+                </div>
+                <div class="pagecrm_first_geader__contacts">
+                    <div class="pagecrm_first_geader__contacts___phone">
+                        <a href="tel:88124095222">
+                            <img src alt="Иконка телефона">
+                            <span>8 812 409-52-22</span>
+                        </a>
                     </div>
-                    <div class="pagecrm_first-page__tools">
+                    <div class="pagecrm_first_geader__contacts___question">
                         <button>
-                            <img src="./assets/images/tools/question.svg" alt="Знак вопроса">
-                        </button>
-                        <button>
-                            <img src="./assets/images/tools/phone.svg" alt="Телефон">
+                            Задать вопрос <img src alt="иконка стрелочки">
                         </button>
                     </div>
                 </div>
-            </div>
-        </main>
-        <footer></footer>
-        <script src="./assets/js/script.js"></script>
-    </body>
-</html>
+            </header>
+            <main>
+                <div class="pagecrm_first-page__tools">
+                    <button class="question">
+                        <img src="./assets/images/tools/question.svg"
+                            alt="Знак вопроса">
+                    </button>
+                    <button>
+                        <img src="./assets/images/tools/phone.svg"
+                            alt="Телефон">
+                    </button>
+                </div>
+                <div class="pagecrm_first-page">
+                    <h1>CRM</h1>
+                    <div class="pagecrm_first-page_container">
+                        <div class="pagecrm_first-page__image">
+                            <img src="./assets/images/first_image.svg"
+                                alt="Начальное изображение">
+                        </div>
+                        <div class="pagecrm_first-page__button">
+                            <div class="pagecrm_main-button">
+                                Оставить заявку
+                            </div>
+                                <!-- <a href="#">Оставить заявку</a> -->
+                            <!-- <span>
+                            </span> -->
+                            <!-- <div class="white-grad">
+                                <div class="grad_bg">
+
+                                    Оставить заявку
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer></footer>
+            <script src="./assets/js/script.js"></script>
+        </body>
+    </html>

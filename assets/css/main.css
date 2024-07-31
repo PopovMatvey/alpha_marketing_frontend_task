@@ -1,35 +1,78 @@
 main {
-    margin: 50px 0px;
-}
-
-main img {
-    width: 80%;
-    height: auto;
+    margin: 30px 0px;
+    height: 120vh;
 }
 
 .pagecrm_first-page_container {
-    border: 1px solid white;
     margin: 30px 0px;
 }
 
 .pagecrm_first-page_container {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+}
+
+.pagecrm_first-page__image img {
+    width: 100%;
 }
 
 .pagecrm_first-page__tools {
-    /* height: 100px; */
-    width: 59ox;
-    /* width: 50px; */
-}
-
-.pagecrm_first-page_container button {
+    position: fixed;
+    top: 40%;
+    right: 0px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 48px;
+    height: 94px;
+    background: rgba(29, 1, 65, 0.3);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.pagecrm_first-page__tools button {
+    width: 100%;
+    height: 50px;
+    width: 80%;
+}
+
+.pagecrm_first-page__tools img {
+    filter: drop-shadow(0px 0px 10.6176px #00FFE1) drop-shadow(0px 0px 3.0336px #00FFE1) drop-shadow(0px 0px 1.5168px #00FFE1);
+    transition: 1s all;
+}
+
+.pagecrm_first-page__tools img:hover {
+    filter: drop-shadow(0px 0px 15.6176px #00FFE1) drop-shadow(0px 0px 5.0336px #00FFE1) drop-shadow(0px 0px 6.5168px #00FFE1);
+}
+
+.question {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.pagecrm_first-page__button {
+    display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(29, 1, 65, 0.3);
-    border: 1px solid white;
+}
 
+.pagecrm_main-button{
+    font-style: normal;
+    text-transform: uppercase;
+    background: linear-gradient(#6d5289e6, #6d5289e6) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
+    box-shadow: 0px 0px 10px #D795FF;
+    backdrop-filter: blur(50px);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    color: #FFF;
+    padding: 10px 40px;
+    transition: 1s all;
+}
+
+.pagecrm_main-button:hover{
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 3.6176px #00FFE1) drop-shadow(0px 0px 5.0336px #00FFE1) drop-shadow(0px 0px 1.5168px #00FFE1);
+}
+
+.pagecrm_first-page__button a:visited {
+    color: #FFF;
 }

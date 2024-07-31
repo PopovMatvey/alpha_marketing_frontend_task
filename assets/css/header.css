@@ -1,5 +1,104 @@
 header {
+    font-family: "PlayRegular";
+    padding: 10px;
+    color: #FFF;
+}
+
+header a:hover {
+    text-shadow: 0px 0px 10px #D795FF;
+}
+
+.pagecrm_header__logo {
+    width: 40%;
+}
+
+.pagecrm_header__logo img {
+    width: 100%;
+    height: auto;
+}
+
+.pagecrm_first_geader__contacts___phone a {
+    color: #FFF;
+    font-size: 11px;
+    transition: 1s all;
+}
+
+.pagecrm_first_geader__contacts___phone a:visited {
+    color: #FFF;
+}
+
+.pagecrm_first_geader__contacts___phone:hover {
+    text-shadow: 0px 0px 10px #D795FF;
+}
+
+.pagecrm_header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.header-mobile {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
     height: 79px;
-    border: 1px solid wheat;
-    margin-bottom: 75px;
+    background: none;
+}
+
+.pagecrm_header__inputfield {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #FFF;
+    border-radius: 30px;
+    background: -webkit-linear-gradient(330deg, #2e335a4d, #1c1b334d);
+    -webkit-text-fill-color: transparent;
+    max-width: 300px;
+    width: 80%;
+}
+
+.pagecrm_header__inputfield input {
+    width: 90%;
+    background: none;
+    color: #FFF;
+}
+
+.pagecrm_header__inputfield img {
+    padding: 3px 10px;
+}
+
+.pagecrm_header-desktop {
+    display: none;
+}
+
+@media screen and (min-width:990px) {
+    .header-mobile {
+        display: none;
+    }
+
+    .pagecrm_header-desktop {
+        background: #1d01414d;
+    }
+}
+
+.pagecrm_header__navigation {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pagecrm_header__navigation a{
+    display: block;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.pagecrm_header__navigation a:visited{
+    color: #FFF;
+}
+
+.active{
+    text-shadow: 0px 0px 10px #E9DEFF;
 }
