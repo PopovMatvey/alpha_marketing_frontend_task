@@ -1,0 +1,21 @@
+.pagecrm_controll-bissness-proccess{
+    margin-top: 75px;
+}
+
+.pagecrm_bissness_controll-proccess{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.pagecrm_bissness_controll-proccess div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 170px;
+    border: 1px solid black;
+}
