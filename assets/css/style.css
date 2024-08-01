@@ -32,9 +32,10 @@ h2 {
 
 h3 {
     font-size: 17px;
-    background: -webkit-linear-gradient(330deg, #FFF, #D795FF, #7BC2FE);
+    background: -webkit-linear-gradient(0deg, #FFF, #D795FF, #7BC2FE);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 @media screen and (min-width:990px) {
@@ -47,14 +48,21 @@ h3 {
     }
 }
 
-button{
-    background: none;    
+.caps {
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
-a,button{
+button {
+    background: none;
+}
+
+a,
+button {
     transition: .5s all;
 }
 
-a,button:active{
+a,
+button:active {
     transform: scale(1.2);
 }

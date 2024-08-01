@@ -11,6 +11,8 @@
         <link rel="stylesheet" href="./assets/css/controll_processes.css">
         <link rel="stylesheet" href="./assets/css/cms.css">
         <link rel="stylesheet" href="./assets/css/form-lonsultation.css">
+        <link rel="stylesheet" href="./assets/css/benifits.css">
+        <link rel="stylesheet" href="./assets/css/case.css">
         <link rel="stylesheet" href="./assets/css/footer.css">
         <title>Альфа маркетиг Услуги/CRM</title>
     </head>
@@ -34,7 +36,7 @@
                 </button>
                 <div class="pagecrm_header__inputfield">
                     <img src="./assets/images/tools/lupa.svg" alt="Иконка лупы">
-                    <input type="text">
+                    <input type="text" class="serach-input">
                 </div>
             </div>
             <!-- <div class="pagecrm_header__row">
@@ -212,26 +214,81 @@
                 </div>
             </div>
             <!-- Форма с заявкой на конссультацию -->
-            <div class="pagecrm_form-konsultation">
-                <h4>Оставить заявку</h4>
-                <span>
-                    Выберите систему для вашего бизнеса, и мы свяжемся с Вами в
-                    течение 20 мину
-                </span>
-                <form action="#">
-                    <input type="text" class="input-field" placeholder="ФИО">
-                    <input type="text" class="input-field" placeholder="Телефон">
-                    <input type="text" class="input-field" placeholder="Выьерите почту">
-                    <textarea name id placeholder="Напишите что вас интересует,
-                например: Покупка лицензии amoCRM"></textarea>
-                    <input type="text" class="submit-button"
-                        value="Оставить заявку">
-                </form>
+            <div class="pagecrm_form-konsultation_container">
+                <div class="pagecrm_form-konsultation">
+                    <h4>Оставить заявку</h4>
+                    <span>
+                        Выберите систему для вашего бизнеса, и мы свяжемся с
+                        Вами в
+                        течение 20 мину
+                    </span>
+                    <form action="#">
+                        <input type="text" class="input-field"
+                            placeholder="ФИО">
+                        <input type="text" class="input-field"
+                            placeholder="Телефон">
+                        <select name="crm" id="crm-input">
+                            <option value="Nan" disabled selected>Выберите
+                                систему</option>
+                            <option value="amo">AMO</option>
+                            <option value="bitrix24">Bitrix24</option>
+                        </select>
+                        <textarea name id
+                            placeholder="Напишите что вас интересует,
+                например: Покупка лицензии amoCRM"
+                            cols="1" rows="5"></textarea>
+                        <div class="submit-button">
+                            <input type="submit" class="not-input"
+                                value="Оставить заявку">
+                        </div>
+                    </form>
+                </div>
             </div>
-            <!-- Преимущества -->
-
+            <!-- Польза -->
+            <div class="pagecrm_binifits">
+                <h2 class="caps">КОМУ ПОЛЕЗНА CRM</h2>
+                <ul>
+                    <li>Любому бизнесу, работающему с клиентской базой</li>
+                    <li>На компьютер, подключите гарнитуру и звоните прямо из
+                        CRM одним кликом</li>
+                    <li>На компьютер, подключите гарнитуру и звоните прямо из
+                        CRM одним кликом</li>
+                </ul>
+            </div>
             <!-- Кейсы -->
-
+            <div class="pagecrm_case-container">
+                <h2 class="caps">CRM в бизнесе</h2>
+                <h3>Наши кейсы</h3>
+                <div class="pagecrm_case-containtainer__items">
+                    <div class="pagecrm_case-containtainer__item">
+                        <div class="pagecrm_case-containtainer__item___image">
+                            <img src="./assets/images/cases/forest_factory.svg" alt="Изображение кейса">
+                            <span>г. Санкт-Петербург</span>
+                        </div>
+                        <div class="pagecrm_case-containtainer__item___text">
+                            <h4>“Пестовский Лесокомбинат”</h4>
+                            <span>Строительная компания</span>
+                            <p>Работают на платформе amoCRM</p>
+                            <div
+                                class="more-button"><span>Подробнее</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagecrm_case-containtainer__item">
+                        <div class="pagecrm_case-containtainer__item___image">
+                            <img src="./assets/images/cases/circules.svg" alt="Изображение кейса">
+                            <span>Россия</span>
+                        </div>
+                        <div class="pagecrm_case-containtainer__item___text">
+                            <h4>Магазин “Mongol Store”</h4>
+                            <span>Одежда из натуральной шерсти</span>
+                            <p>Используют БитриксCRM</p>
+                            <div
+                                class="more-button"><span>Подробнее</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- Прайс -->
 
             <!-- Форма с заявкой на подключение -->

@@ -3,10 +3,6 @@ main {
 }
 
 .pagecrm_first-page_container {
-    /* padding: 30px 0px; */
-}
-
-.pagecrm_first-page_container {
     align-items: center;
 }
 
@@ -59,10 +55,10 @@ main {
 .pagecrm_main-button {
     font-style: normal;
     text-transform: uppercase;
+    border: 1px solid transparent;
     background: linear-gradient(#6d5289e6, #6d5289e6) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
     box-shadow: 0px 0px 10px #D795FF;
     backdrop-filter: blur(50px);
-    border: 1px solid transparent;
     border-radius: 20px;
     color: #FFF;
     padding: 10px 40px;
