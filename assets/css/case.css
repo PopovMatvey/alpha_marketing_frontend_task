@@ -15,6 +15,11 @@
     border: 1px solid transparent;
     background: #421963b3, linear-gradient(to right, #9400FF, rgba(198, 79, 135, 0.83)) border-box;
     box-shadow: 0px 0px 10px #D795FF;
+    max-width: 320px;
+}
+
+.pagecrm_price-container_item ul {
+    padding: 10px;
 }
 
 .pagecrm_case-containtainer__item___image {
@@ -29,8 +34,8 @@
 }
 
 .pagecrm_case-containtainer__item___image img {
-    width: 60%;
-    margin: auto;    
+    width: 50%;
+    margin: auto;
     filter: drop-shadow(0px 0px 10px #D795FF);
 }
 

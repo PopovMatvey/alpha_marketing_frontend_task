@@ -61,50 +61,6 @@
     gap: 10px;
 }
 
-.input-field {
-    color: #FFF;
-    background: none;
-}
-
-.submit-button {
-    display: flex;
-    justify-content: center;
-    font-style: normal;
-    border: 1px solid transparent;
-    background: linear-gradient(#1E0044, #1E0044) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
-    box-shadow: 0px 0px 10px #D795FF;
-    backdrop-filter: blur(50px);
-    border-radius: 20px;
-    color: #FFF;
-    transition: 1s all;
-}
-
-.submit-button:hover{
-    cursor: pointer;
-    filter: drop-shadow(0px 0px 3.6176px #00FFE1) drop-shadow(0px 0px 5.0336px #00FFE1) drop-shadow(0px 0px 1.5168px #00FFE1);
-}
-
-.submit-button:active{
-    transform: scale(1.1);
-}
-
-.not-input{
-    width: 100%  !important;
-    border: none !important;
-    border-radius: 10px ;
-    padding: 0;
-    background: none;
-    text-transform: uppercase;
-}
-
-.not-input:hover{
-    cursor: pointer;
-}
-
-.not-input:focus{
-    background: none !important;
-}
-
 .pagecrm_form-konsultation textarea {
     border: 1px solid #9400FF;
     background: none;
