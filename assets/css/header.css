@@ -53,14 +53,28 @@ header a:hover {
     border: 1px solid #FFF;
     border-radius: 30px;
     background: -webkit-linear-gradient(330deg, #2e335a4d, #1c1b334d);
-    -webkit-text-fill-color: transparent;
     max-width: 300px;
     width: 80%;
+    z-index: 1;
+}
+
+.pagecrm_header__inputfield img:hover {
+    cursor: pointer;
 }
 
 .pagecrm_header__inputfield input {
     width: 90%;
     background: none;
+    color: #FFF;
+    z-index: 2;
+    padding: 0px 5px;
+}
+
+.serach-input {
+    color: #FFF;
+}
+
+.serach-input::-webkit-input-placeholder {
     color: #FFF;
 }
 
@@ -89,16 +103,16 @@ header a:hover {
     gap: 20px;
 }
 
-.pagecrm_header__navigation a{
+.pagecrm_header__navigation a {
     display: block;
     color: #FFF;
     font-size: 12px;
 }
 
-.pagecrm_header__navigation a:visited{
+.pagecrm_header__navigation a:visited {
     color: #FFF;
 }
 
-.active{
+.active {
     text-shadow: 0px 0px 10px #E9DEFF;
 }

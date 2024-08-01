@@ -1,0 +1,101 @@
+.pagecrm_form-link {
+    padding: 20px
+}
+
+.pagecrm_form-link h2 {
+    font-size: 24px;
+    padding: 10px 0px;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+.pagecrm_form-link_form {
+    padding: 20px;
+    margin: 30px 0px;
+    border: 1px solid transparent;
+    background: linear-gradient(#664995, #664995) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
+    box-shadow: 0px 0px 10px #D795FF;
+    backdrop-filter: blur(50px);
+    border-radius: 20px;
+}
+
+@media screen and (max-width:990px) {
+    .pagecrm_form-link_form img {
+        display: none;
+    }
+
+}
+
+.pagecrm_form-link form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.pagecrm_form-link form h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #b77eff;
+}
+
+.pagecrm_form-link form span {
+    color: #FFF;
+    margin: 10px 0px;
+}
+
+.pagecrm_form-link form input {
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: #FFF;
+    background: none;
+    border: 3px solid transparent;
+    background: linear-gradient(#664995, #664995) padding-box, linear-gradient(to right, #FFFFFF, #D795FF, #7BC2FE) border-box;
+    box-shadow: 0px 0px 10px #D795FF;
+    transition: .5s all;
+}
+
+.pagecrm_form-link form input:focus {
+    background: linear-gradient(#6d5289e6, #6d5289e6) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
+    color: #FFF;
+}
+
+.pagecrm_form-link_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagecrm_form-link form input::placeholder {
+    color: #FFF;
+}
+
+.pagecrm_form-link form select {
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: #FFF;
+    background: none;
+    border: 3px solid transparent;
+    background: linear-gradient(#664995, #664995) padding-box, linear-gradient(to right, #FFFFFF, #D795FF, #7BC2FE) border-box;
+    box-shadow: 0px 0px 10px #D795FF;
+}
+
+.pagecrm_form-link form input:focus {
+    background: linear-gradient(#6d5289e6, #6d5289e6) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
+    color: #FFF;
+}
+
+.pagecrm_form-link form select option {
+    background-color: #6d5289e6;
+    font-size: 15px;
+}
+
+.pagecrm_form-link form select:focus {
+    background: linear-gradient(#6d5289e6, #6d5289e6) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
+    color: #FFF;
+}

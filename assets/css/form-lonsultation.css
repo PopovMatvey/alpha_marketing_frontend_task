@@ -1,3 +1,15 @@
+.pagecrm_form-konsultation_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:990px) {
+    .pagecrm_form-konsultation_container {
+        background: url("../images/bg_lines.svg") 0% 0%/100% auto;
+    }
+}
+
 .pagecrm_form-konsultation {
     display: flex;
     flex-direction: column;
@@ -10,6 +22,7 @@
     border-radius: 32px;
     padding: 44px 15px;
     gap: 20px;
+    max-width: 400px;
 }
 
 .pagecrm_form-konsultation h4 {
@@ -33,7 +46,18 @@
     border: 1px solid #9400FF;
     border-radius: 10px;
     width: 95%;
-    /* color: #FFF; */
+    color: #FFF;
+    transition: .5s all;
+}
+
+.pagecrm_form-konsultation input::-webkit-input-placeholder {
+    color: #FFF;
+}
+
+.pagecrm_form-konsultation input:focus {
+    border: 1px solid transparent;
+    background: linear-gradient(#6d5289e6, #6d5289e6) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
+    color: #FFF;
 }
 
 .pagecrm_form-konsultation form {
@@ -43,21 +67,44 @@
     gap: 10px;
 }
 
-.input-field {
-    color: #FFF;
-    background: none;
-}
-
-.submit-button {
-    color: #FFF;
-    text-transform: uppercase;
-    text-align: center;
-    background: #1E0044;
-}
-
-textarea {
+.pagecrm_form-konsultation textarea {
     border: 1px solid #9400FF;
     background: none;
     width: 95%;
-    padding: 50px 20px;
+    padding: 20px 20px;
+    color: #FFF;
+    text-align: left;
+    border-radius: 10px;
+    transition: .5s all;
+}
+
+.pagecrm_form-konsultation textarea::-webkit-input-placeholder {
+    color: #FFF;
+}
+
+.pagecrm_form-konsultation textarea:focus {
+    border: 1px solid transparent;
+    background: linear-gradient(#6d5289e6, #6d5289e6) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
+    color: #FFF;
+}
+
+.pagecrm_form-konsultation select {
+    padding: 15px 20px;
+    border: 1px solid #9400FF;
+    border-radius: 10px;
+    width: 95%;
+    background: rgba(72, 5, 114, 0.0);
+    color: #FFF;
+    transition: .5s all;
+}
+
+.pagecrm_form-konsultation option {
+    background-color: #480572;
+    font-size: 15px;
+}
+
+.pagecrm_form-konsultation select:focus {
+    border: 1px solid transparent;
+    background: linear-gradient(#6d5289e6, #6d5289e6) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
+    color: #FFF;
 }

@@ -1,0 +1,51 @@
+.pagecrm_binifits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.pagecrm_binifits_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pagecrm_binifits ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+    gap: 20px;
+    border-radius: 20px;
+    margin: 50px 10px;
+    background: linear-gradient(#b094ffb3, #b195ff6b, #2c305300) border-box;
+    padding: 20px 0px;
+    max-width: 350px;
+}
+
+.pagecrm_binifits li {
+    display: flex;
+    width: 80%;
+    line-height: 25px;
+}
+
+.pagecrm_binifits li::before {
+    content: url("../images/tools/3dMark.svg");
+    margin: 0px 10px;
+}
+
+.pagecrm_binifits_container img {
+    display: block;
+    width: 50%;
+}
+
+@media screen and (max-width:990px) {
+    .pagecrm_binifits_container img {
+        display: none;
+    }
+
+}

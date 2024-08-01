@@ -1,0 +1,78 @@
+.pagecrm_form-connection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.pagecrm_form-connection-container h4 {
+    color: #FFF;
+    padding: 0px 20px;
+}
+
+.pagecrm_form-connection-container_form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: url("../images/bg_form.svg")0% 100% / 100% auto no-repeat;
+    max-width: 500px;
+}
+
+.pagecrm_form-connection-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    padding: 20px 0px;
+    margin: 10px 0px;
+    border: 1px solid black;
+    background: rgb(61, 50, 142);
+    border-radius: 20px;
+}
+
+.pagecrm_form-connection-container form input {
+    border-radius: 5px;
+    padding: 5px 15px;
+    width: 75%;
+    border: 1px solid #0a142f;
+    background: #99c;
+    transition: .5s all;
+}
+
+.pagecrm_form-connection-container form input:focus {
+    background: linear-gradient(#6d5289e6, #6d5289e6) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
+    color: #FFF;
+}
+
+.pagecrm_form-connection-container form input::placeholder {
+    color: #383838;
+}
+
+.pagecrm_form-connection-container form input:focus::placeholder {
+    color: #FFF;
+}
+
+.pagecrm_form-connection-container form textarea {
+    border-radius: 5px;
+    padding: 5px 15px;
+    width: 75%;
+    border: 1px solid #0a142f;
+    background: #99c;
+    transition: .5s all;
+}
+
+.pagecrm_form-connection-container form textarea:focus {
+    background: linear-gradient(#6d5289e6, #6d5289e6) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
+    color: #FFF;
+}
+
+.pagecrm_form-connection-container form textarea::placeholder {
+    color: #383838;
+}
+
+.pagecrm_form-connection-container form textarea:focus::placeholder {
+    color: #FFF;
+}
