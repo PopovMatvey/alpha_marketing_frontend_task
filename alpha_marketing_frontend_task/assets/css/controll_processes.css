@@ -1,0 +1,38 @@
+.pagecrm_controll-bissness-proccess {
+    margin-top: 75px;
+}
+
+.pagecrm_bissness_controll-proccess {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px 0px;
+    padding: 50px 0px;
+}
+
+.pagecrm_bissness_controll-proccess div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 150px;
+}
+
+.pagecrm_controll-bissness-proccess h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.pagecrm_bissness_controll-proccess span {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+}
+
+.pagecrm_bissness_controll-proccess img {
+    filter: drop-shadow(0px 0px 10px #D795FF);
+    padding: 10px 0px;
+    z-index: 1;
+}

@@ -1,0 +1,92 @@
+.pagecrm_price-container {
+    padding: 20px;
+}
+
+.pagecrm_price-container_items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #FFF;
+    gap: 20px;
+}
+
+.pagecrm_price-container_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 320px;
+    background: #110B31;
+    padding: 10px;
+    border-radius: 15px;
+    min-height: 230px;
+    border: 1px solid transparent;
+    background: #421963b3, linear-gradient(to right, #9400FF, rgba(198, 79, 135, 0.83)) border-box;
+    box-shadow: 0px 0px 10px #D795FF;
+}
+
+.pagecrm_price-container_item__price {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #9e00ff26;
+    border-radius: 10px;
+    padding: 15px 10px;
+    margin: 10px 0px;
+}
+
+.pagecrm_price-container_item__price span {
+    width: 60%;
+    font-size: 12px;
+}
+
+.pagecrm_price-container_item__price p {
+    font-family: "PlayBold";
+    background: -webkit-linear-gradient(0deg, #FFF, #B195FF, #D795FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.pagecrm_price-container_item ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.pagecrm_price-container_item li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagecrm_price-container_item li::before {
+    content: url("../images/tools/mark.svg");
+    padding: 0px 5px;
+}
+
+.grad-button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.grad-button {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background: linear-gradient(#1c0040, #1c0040) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
+    box-shadow: 0px 0px 10px #D795FF;
+    transition: .5s all;
+}
+
+.grad-button_container :hover {
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 3.6176px #00FFE1) drop-shadow(0px 0px 2.0336px #00FFE1) drop-shadow(0px 0px 1.5168px #00FFE1);
+}

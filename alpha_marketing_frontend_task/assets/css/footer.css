@@ -1,0 +1,99 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #FFF;
+    padding-bottom: 150px;
+}
+
+.pagecrm_footer-desktop {
+    display: none;
+}
+
+@media screen and (min-width:990px) {
+    .pagecrm_footer-mobile {
+        display: none;
+    }
+
+    .pagecrm_footer-desktop {
+        display: flex;
+        flex-direction: column;
+        align-items:stretch;
+        justify-content: center;
+        gap: 10px;
+        color: #FFF;
+        padding-bottom: 150px;
+    }
+
+    .pagecrm_footer-desktop__contacts-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .pagecrm_footer-desktop__contacts-container__menu h2 {
+        text-align: start;
+        font-size: 25px;
+    }
+
+    .pagecrm_footer-desktop__contacts-container__menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin: 15px 0px;
+    }
+    
+    .pagecrm_footer-desktop__contacts-container__menu ul a{
+        color: #FFF;
+    }
+
+    .pagecrm_footer-desktop__contacts-container__menu ul a:visited{
+        color: #FFF;
+    }
+
+    .pagecrm_footer-desktop__contacts-container__menu img {
+        width: 50%;
+    }
+
+    .pagecrm_footer-desktop__signature {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 85%;
+        gap: 50px;
+        margin: auto;
+    }
+
+    .pagecrm_contacts_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        font-size: 14px;
+        margin: 20px 0px;
+        color: #FFF;
+    }
+
+    .pagecrm_contacts_text a{
+        margin: 0px 10px;
+    }
+}
+
+footer span {
+    font-size: 10px;
+}
+
+footer img {
+    z-index: 2;
+}
+
+.pagecrm_footer-contacts {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    padding: 10px 0px;
+}

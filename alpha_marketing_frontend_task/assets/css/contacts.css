@@ -1,0 +1,31 @@
+.pagecrm_contacts h2 {
+    font-size: 24px;
+}
+
+.pagecrm_contacts_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    margin: 20px 0px;
+    color: #FFF;
+}
+
+.pagecrm_contacts a {
+    color: #FFF;
+}
+
+.pagecrm_contacts_map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.pagecrm_contacts_map iframe {
+    border-radius: 20px;
+    height: 200px;
+    box-shadow: 0px 0px 20px #D795FF;
+}
