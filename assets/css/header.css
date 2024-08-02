@@ -10,7 +10,6 @@ header a:hover {
 
 .pagecrm_header-mobile {
     display: block;
-    /* border: 1px solid black; */
     padding: 20px;
 }
 
@@ -114,15 +113,93 @@ header a:hover {
     display: none;
 }
 
+.pagecrm_footer-desktop__contacts-container__menu img:hover{
+    cursor: pointer;
+}
+
 @media screen and (min-width:990px) {
+    header {
+        background: #1d01414d;
+    }
+
     .pagecrm_header-desktop {
-        display: block;
-        border: 1px solid rgb(151, 21, 21);
-        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .pagecrm_header__logo-desktop img {
+        width: 70%;
     }
 
     .pagecrm_header-mobile {
         display: none;
+    }
+
+    .pagecrm_first_header__menu {
+        width: 40%;
+        text-transform: uppercase;
+    }
+
+    .pagecrm_first_header__menu a:visited {
+        color: #FFF;
+    }
+
+    .pagecrm_first_header__menu ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .pagecrm_first_geader__contacts {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 32%;
+        height: 50px;
+        gap: 0px 10px;
+    }
+
+    .pagecrm_first_geader__contacts img {
+        width: 10%;
+    }
+
+    .pagecrm_first_geader__contacts___phone a {
+        font-family: "PlayRegular";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        color: #FFF;
+        font-size: 12px;
+    }
+
+    .pagecrm_first_geader__contacts___question button {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-style: normal;
+        border: 1px solid transparent !important;
+        background: linear-gradient(#1E0044, #1E0044) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box !important;
+        box-shadow: 0px 0px 10px #D795FF !important;
+        backdrop-filter: blur(50px) !important;
+        border-radius: 10px;
+        padding: 10px 20px;
+        color: #FFF;
+        text-transform: uppercase;
+        transition: 1s all;
+    }
+
+
+    .pagecrm_first_geader__contacts___question button:hover {
+        cursor: pointer;
+        filter: drop-shadow(0px 0px 3.6176px #00FFE1) drop-shadow(0px 0px 5.0336px #00FFE1) drop-shadow(0px 0px 1.5168px #00FFE1);
+    }
+
+    .pagecrm_first_geader__contacts___question button:active {
+        transform: scale(1.1);
     }
 }
 

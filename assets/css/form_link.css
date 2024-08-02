@@ -43,7 +43,7 @@ h3 {
     justify-content: center;
     text-align: center;
     gap: 10px;
-    /* max-width: 300px; */
+    max-width: 300px;
 }
 
 .pagecrm_form-link form h4 {
@@ -138,7 +138,7 @@ h3 {
         justify-content: space-between;
         align-items: center;
         gap: 30px;
-        width: 90%;
+        width: 70%;
         border: 1px solid black;
         border: 1px solid transparent;
         background: linear-gradient(#664995, #664995) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;

@@ -79,3 +79,9 @@ main {
 .pagecrm_first-page__button a:visited {
     color: #FFF;
 }
+
+@media screen and (min-width:990px) {
+    .pagecrm_main-button {
+        padding: 20px 40px;
+    }    
+}

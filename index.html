@@ -21,7 +21,7 @@
         <link rel="stylesheet" href="./assets/css/footer.css">
         <title>Альфа маркетиг Услуги/CRM</title>
     </head>
-    <body>
+    <body lazy>
         <header>
             <!-- Шапка (mobile) -->
             <div class="pagecrm_header-mobile">
@@ -49,71 +49,66 @@
             </div>
             <!-- Шапка (descktop) -->
             <div class="pagecrm_header-desktop">
-                <!-- 
-            <div class="pagecrm_header__row">
-                <div class="pagecrm_header__logo">
+                <div class="pagecrm_header__logo-desktop">
                     <img src="./assets/images/logo.svg" alt="Логотип">
-                </div>
-                <div class="pagecrm_first_geader__contacts___phone">
-                    <a href="tel:88124095222">
-                        <span>8 812 409-52-22</span>
-                    </a>
                 </div>
                 <div class="pagecrm_first_header__menu">
                     <ul>
                         <li>
-                            <span>Услуги</span>
+                            <a href="https://alpham.pro/services/" class="active">Услуги</a>
                         </li>
                         <li>
-                            <span>Кейсы</span>
+                            <a href="https://alpham.pro/cases/" >Кейсы</a>
                         </li>
                         <li>
-                            <span>Ещё</span>
+                            <a href="https://alpham.pro/other/" >Ещё</a>
                         </li>
                         <li>
-                            <img src alt="Иконка лупы">
+                            <a href="" ></a>
+                            <img src="./assets/images/tools/lupa.svg"
+                                alt="Иконка лупы" >
+                            </a>
                         </li>
                     </ul>
                 </div>
                 <div class="pagecrm_first_geader__contacts">
                     <div class="pagecrm_first_geader__contacts___phone">
                         <a href="tel:88124095222">
-                            <img src alt="Иконка телефона">
+                            <img src="./assets/images/tools/phone.svg" alt="Иконка телефона">
                             <span>8 812 409-52-22</span>
                         </a>
                     </div>
                     <div class="pagecrm_first_geader__contacts___question">
                         <button>
-                            Задать вопрос <img src alt="иконка стрелочки">
+                            Задать вопрос <img src="./assets/images/tools/arrow_button.svg" alt="иконка стрелочки">
                         </button>
                     </div>
                 </div>
-                -->
-            </div>
-            <div class="pagecrm_header__row">
-                <div class="pagecrm_header__navigation">
-                    <a href="https://alpham.pro/">Главная</a>
-                    <img src="./assets/images/tools/arrow_right.svg"
-                        alt="Иконка стрелочики">
-                    <a href="https://alpham.pro/services/">Услуги Альфа
-                        маркетинг</a>
-                    <img src="./assets/images/tools/arrow_right.svg"
-                        alt="Иконка стрелочики">
-                    <a href="#" class="active">CRM</a>
-                </div>
             </div>
         </header>
+        <div class="pagecrm_header__row">
+            <div class="pagecrm_header__navigation">
+                <a href="https://alpham.pro/">Главная</a>
+                <img src="./assets/images/tools/arrow_right.svg"
+                    alt="Иконка стрелочики" >
+                <a href="https://alpham.pro/services/">Услуги Альфа
+                    маркетинг</a>
+                <img src="./assets/images/tools/arrow_right.svg"
+                    alt="Иконка стрелочики">
+                <a href="#" class="active">CRM</a>
+            </div>
+        </div>
         <!-- Основной контент -->
         <main>
             <!-- Начальная страница -->
             <div class="pagecrm_first-page__tools">
                 <button class="question">
                     <img src="./assets/images/tools/question.svg"
-                        alt="Знак вопроса">
+                        alt="Знак вопроса" loading="lazy">
                 </button>
                 <button>
                     <img src="./assets/images/tools/phone.svg"
-                        alt="Телефон">
+                        alt="Телефон" loading="lazy">
                 </button>
             </div>
             <div class="pagecrm_first-page">
@@ -121,7 +116,7 @@
                 <div class="pagecrm_first-page_container">
                     <div class="pagecrm_first-page__image">
                         <img src="./assets/images/first_image.svg"
-                            alt="Начальное изображение">
+                            alt="Начальное изображение" loading="lazy">
                     </div>
                     <div class="pagecrm_first-page__button">
                         <div class="pagecrm_main-button">
@@ -138,22 +133,22 @@
                 <div class="pagecrm_bissness_controll-proccess">
                     <div class="pagecrm_bissness_controll-proccess__item">
                         <img src="./assets/images/processes/headphones.svg"
-                            alt="=Изображение наушников">
+                            alt="=Изображение наушников" loading="lazy">
                         <span>Удобное общениес заказчиками</span>
                     </div>
                     <div class="pagecrm_bissness_controll-proccess__item">
                         <img src="./assets/images/processes/users.svg"
-                            alt="Изображение пользователей">
+                            alt="Изображение пользователей" loading="lazy">
                         <span>Лучшие CRM-системы</span>
                     </div>
                     <div class="pagecrm_bissness_controll-proccess__item">
                         <img src="./assets/images/processes/roket.svg"
-                            alt="Изображение ракеты">
+                            alt="Изображение ракеты" loading="lazy">
                         <span>Повышение эффективности отдела продаж</span>
                     </div>
                     <div class="pagecrm_bissness_controll-proccess__item">
                         <img src="./assets/images/processes/card.svg"
-                            alt="Изображение карточки">
+                            alt="Изображение карточки" loading="lazy">
                         <span>Карточка с историей событий для каждого
                             заказчика</span>
                     </div>
@@ -164,7 +159,7 @@
                 <div class="pagecrm_our_crms-container_item">
                     <div class="pagecrm_our_crms-container_item-image">
                         <img src="./assets/images/CRM/amo.png"
-                            alt="Изображение Armo">
+                            alt="Изображение Armo" loading="lazy">
                     </div>
                     <div class="pagecrm_our_crms-container_item-text">
                         <h4>Функции:</h4>
@@ -178,7 +173,7 @@
                 <div class="pagecrm_our_crms-container_item">
                     <div class="pagecrm_our_crms-container_item-image">
                         <img src="./assets/images/CRM/bitrix24.png"
-                            alt="Изображение Bitrix24">
+                            alt="Изображение Bitrix24" loading="lazy">
                     </div>
                     <div class="pagecrm_our_crms-container_item-text">
                         <h4>Функции:</h4>
@@ -251,7 +246,7 @@
                         CRM одним кликом</li>
                 </ul>
                 <img src="./assets/images/bg_phone.svg"
-                    alt="Изображение телефона">
+                    alt="Изображение телефона" loading="lazy">
             </div>
         </div>
         <!-- Кейсы -->
@@ -262,7 +257,7 @@
                 <div class="pagecrm_case-containtainer__item">
                     <div class="pagecrm_case-containtainer__item___image">
                         <img src="./assets/images/cases/forest_factory.svg"
-                            alt="Изображение кейса">
+                            alt="Изображение кейса" loading="lazy">
                         <span>г. Санкт-Петербург</span>
                     </div>
                     <div class="pagecrm_case-containtainer__item___text">
@@ -277,7 +272,7 @@
                 <div class="pagecrm_case-containtainer__item">
                     <div class="pagecrm_case-containtainer__item___image">
                         <img src="./assets/images/cases/circules.svg"
-                            alt="Изображение кейса">
+                            alt="Изображение кейса" loading="lazy">
                         <span>Россия</span>
                     </div>
                     <div class="pagecrm_case-containtainer__item___text">
@@ -307,7 +302,7 @@
                             <span>ЗАКАЗАТЬ</span>
                             <img
                                 src="./assets/images/tools/arrow_button.svg"
-                                alt="Иконка стрелки для кнопки">
+                                alt="Иконка стрелки для кнопки" >
                         </div>
                     </div>
                 </div>
@@ -343,7 +338,7 @@
                             <span>ЗАКАЗАТЬ</span>
                             <img
                                 src="./assets/images/tools/arrow_button.svg"
-                                alt="Иконка стрелки для кнопки">
+                                alt="Иконка стрелки для кнопки" >
                         </div>
                     </div>
                 </div>
@@ -394,7 +389,7 @@
                                 value="Оставить заявку">
                         </form>
                         <img src="./assets/images/bg_globus.svg"
-                            alt="Изображения глобуса">
+                            alt="Изображения глобуса" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -409,14 +404,14 @@
                             class="pagecrm_our-parthners-container_item">
                             <span>Битрикс24 (Управление бизнесом)</span>
                             <img src="./assets/images/tools/arrow_next.svg"
-                                alt="Иконка стрелки">
+                                alt="Иконка стрелки" >
                         </div>
                         <div
                             class="pagecrm_our-parthners-container_item">
                             <span>amoCRM (Управление бизнесом)</span>
                             <img
                                 src="./assets/images/tools/arrow_next.svg"
-                                alt="Иконка стрелки">
+                                alt="Иконка стрелки" >
                         </div>
                     </div>
                 </div>
@@ -429,7 +424,7 @@
                 <div class="pagecrm_form-connection-container_form">
                     <!-- 
     background: url("../images/bg_form.svg")0% 100% / 100% auto no-repeat; -->
-                    <img src="./assets/images/bg_form.svg" alt="Фон">
+                    <img src="./assets/images/bg_form.svg" alt="Фон" loading="lazy">
                     <form action>
                         <input type="text" placeholder="Имя*">
                         <input type="text" placeholder="@Почта*">
@@ -447,7 +442,7 @@
                         <div
                             class="pagecrm_form-connection-container_desctop_form_bg__text">
                             <img src="./assets/images/bg_desktop_form.svg"
-                                alt="Фон">
+                                alt="Фон" loading="lazy">
                             <h2>Напишите нам!</h2>
                             <span>Заполните заявку и Мы свяжемся с Вами в
                                 течение 15 минут</span>
@@ -488,11 +483,11 @@
             <img src="./assets/images/logo.svg" alt="Логотип">
             <div class="pagecrm_footer-contacts">
                 <a href="https://vk.com/alpha_marketing_alpham_pro">
-                    <img src="./assets/images/tools/vk.svg" alt="Иконка VK">
+                    <img src="./assets/images/tools/vk.svg" alt="Иконка VK" >
                 </a>
                 <a href="https://t.me/alpham_pro">
                     <img src="./assets/images/tools/telegram.svg"
-                        alt="Иконка Telegram">
+                        alt="Иконка Telegram" >
                 </a>
             </div>
             <span>© 2023 Альфа маркетинг</span>
@@ -506,16 +501,16 @@
                     <h2>Меню</h2>
                     <ul>
                         <li>
-                            <a href="#">Услуги</a>
+                            <a href="https://alpham.pro/services/">Услуги</a>
                         </li>
                         <li>
-                            <a href="#">Кейсы</a>
+                            <a href="https://alpham.pro/cases/">Кейсы</a>
                         </li>
                         <li>
-                            <a href="#">Ещё</a>
+                            <a href="https://alpham.pro/other/">Ещё</a>
                         </li>
                     </ul>
-                    <img src="./assets/images/logo.svg" alt="Логотип">
+                    <a href="#"><img src="./assets/images/logo.svg" alt="Логотип" ></a>
                 </div>
                 <div class="pagecrm_contacts">
                     <div class="pagecrm_contacts_text">
@@ -530,12 +525,12 @@
                             <a
                                 href="https://vk.com/alpha_marketing_alpham_pro">
                                 <img src="./assets/images/tools/vk.svg"
-                                    alt="Иконка VK">
+                                    alt="Иконка VK" loading="lazy">
                             </a>
                             <a href="https://t.me/alpham_pro">
                                 <img
                                     src="./assets/images/tools/telegram.svg"
-                                    alt="Иконка Telegram">
+                                    alt="Иконка Telegram" loading="lazy">
                             </a>
                         </div>
                     </div>
