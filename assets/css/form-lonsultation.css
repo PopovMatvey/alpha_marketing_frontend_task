@@ -4,9 +4,9 @@
     align-items: center;
 }
 
-@media screen and (max-width:990px) {
+@media screen and (min-width:990px) {
     .pagecrm_form-konsultation_container {
-        background: url("../images/bg_lines.svg") 0% 0%/100% auto;
+        background: url("../images/bg_lines.svg") 50% 50%/ 100% auto no-repeat;
     }
 }
 

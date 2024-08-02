@@ -3,13 +3,20 @@
 }
 
 .pagecrm_form-link h2 {
-    font-size: 24px;
+    font-size: 26px;
     padding: 10px 0px;
 }
 
 h2,
 h3 {
     text-align: center;
+}
+
+.pagecrm_form-link_form__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .pagecrm_form-link_form {
@@ -36,6 +43,7 @@ h3 {
     justify-content: center;
     text-align: center;
     gap: 10px;
+    /* max-width: 300px; */
 }
 
 .pagecrm_form-link form h4 {
@@ -98,4 +106,57 @@ h3 {
 .pagecrm_form-link form select:focus {
     background: linear-gradient(#6d5289e6, #6d5289e6) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
     color: #FFF;
+}
+
+.pagecrm_form-link_desctop_form__container {
+    display: none;
+}
+
+@media screen and (min-width:990px) {
+    .pagecrm_form-link_desctop_form__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .pagecrm_form-link_form {
+        display: none;
+    }
+
+
+    .pagecrm_form-link_desctop_form__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        margin: 70px;
+    }
+
+    .pagecrm_form-link_desctop_form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        width: 90%;
+        border: 1px solid black;
+        border: 1px solid transparent;
+        background: linear-gradient(#664995, #664995) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
+        box-shadow: 0px 0px 10px #D795FF;
+        backdrop-filter: blur(50px);
+        border-radius: 20px;
+    }
+
+    .pagecrm_form-link_desctop_form form {
+        max-width: 300px;
+        padding: 20px;
+        margin: 30px 0px;
+        min-width: 300px;
+    }
+
+
+    .pagecrm_form-link_desctop_form img {
+        width: 70%;
+        max-height: 400px;
+    }
 }

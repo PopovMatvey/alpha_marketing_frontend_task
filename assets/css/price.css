@@ -12,6 +12,9 @@
 }
 
 .pagecrm_price-container_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 320px;
     background: #110B31;
     padding: 10px;

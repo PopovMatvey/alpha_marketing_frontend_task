@@ -3,11 +3,17 @@ main {
 }
 
 .pagecrm_first-page_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 50px;
+    background: url("../images/bg_lines_firsst.svg") 0% 0%/ 100% 100% no-repeat;
 }
 
 .pagecrm_first-page__image img {
     width: 100%;
+    padding: 10px;
 }
 
 .pagecrm_first-page__tools {
