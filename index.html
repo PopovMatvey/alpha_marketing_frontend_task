@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="./assets/css/form_connect.css">
         <link rel="stylesheet" href="./assets/css/contacts.css">
         <link rel="stylesheet" href="./assets/css/footer.css">
+        <link rel="stylesheet" href="./assets/css/modal-window.css">
         <title>Альфа маркетиг Услуги/CRM</title>
     </head>
     <body lazy>
@@ -196,7 +197,7 @@
                     Вами в
                     течение 20 мину
                 </span>
-                <form action="#">
+                <form action="#" id="formConsultation">
                     <input type="text" class="input-field"
                         placeholder="ФИО">
                     <input type="text" class="input-field"
@@ -265,7 +266,7 @@
                         <span>Строительная компания</span>
                         <p>Работают на платформе amoCRM</p>
                         <div
-                            class="more-button"><span>Подробнее</span>
+                            class="more-button"><a href="https://alpham.pro/other/partners/">Подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -280,7 +281,8 @@
                         <span>Одежда из натуральной шерсти</span>
                         <p>Используют БитриксCRM</p>
                         <div
-                            class="more-button"><span>Подробнее</span></div>
+                            class="more-button"><a href="https://alpham.pro/other/partners/">Подробнее</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -351,18 +353,18 @@
                 рассчитаем стоимость </h3>
             <div class="pagecrm_form-link_form__container">
                 <div class="pagecrm_form-link_form">
-                    <form action>
+                    <form action id="linkForm">
                         <h4>Заполните форму</h4>
                         <span>Оставьте свои контактные данные, мы свяжемся с
                             Вами в
                             течение 20 минут</span>
                         <input type="text" placeholder="Имя">
-                        <input type="text" placeholder="Телефон">
+                        <input type="number" placeholder="Телефон">
                         <select name id>
                             <option value="Nan" disabled selected>Выберите
                                 систему</option>
-                            <option value>Подключить</option>
-                            <option value>Отключить</option>
+                            <option value="Подключить">Подключить</option>
+                            <option value="Отключить">Отключить</option>
                         </select>
                         <input type="submit" class="submit-button"
                             value="Оставить заявку">
@@ -370,20 +372,20 @@
                 </div>
                 <div class="pagecrm_form-link_desctop_form__container">
                     <div class="pagecrm_form-link_desctop_form">
-                        <form action>
+                        <form action id="linkFormDesktop">
                             <h4>Заполните форму</h4>
                             <span>Оставьте свои контактные данные, мы
                                 свяжемся с
                                 Вами в
                                 течение 20 минут</span>
                             <input type="text" placeholder="Имя">
-                            <input type="text" placeholder="Телефон">
+                            <input type="phone" placeholder="Телефон">
                             <select name id>
                                 <option value="Nan" disabled
                                     selected>Выберите
                                     систему</option>
-                                <option value>Подключить</option>
-                                <option value>Отключить</option>
+                                <option value="Подключить">Подключить</option>
+                                <option value="Отключить">Отключить</option>
                             </select>
                             <input type="submit" class="submit-button"
                                 value="Оставить заявку">
@@ -400,19 +402,23 @@
                     <img src="./assets/images/parthners.svg"
                         alt="Изображения партнёров">
                     <div class="pagecrm_our-parthners-container_items">
-                        <div
+                        <a href="https://alpham.pro/other/partners/">
+                            <div
                             class="pagecrm_our-parthners-container_item">
                             <span>Битрикс24 (Управление бизнесом)</span>
                             <img src="./assets/images/tools/arrow_next.svg"
-                                alt="Иконка стрелки" >
-                        </div>
-                        <div
+                                alt="Иконка стрелки" >           
+                            </div>                     
+                        </a>
+                        <a href="https://alpham.pro/other/partners/">
+                            <div
                             class="pagecrm_our-parthners-container_item">
                             <span>amoCRM (Управление бизнесом)</span>
                             <img
                                 src="./assets/images/tools/arrow_next.svg"
-                                alt="Иконка стрелки" >
-                        </div>
+                                alt="Иконка стрелки" >                      
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -422,13 +428,11 @@
                 <h4>Заполните заявку и Мы свяжемся с Вами в течение 15
                     минут</h4>
                 <div class="pagecrm_form-connection-container_form">
-                    <!-- 
-    background: url("../images/bg_form.svg")0% 100% / 100% auto no-repeat; -->
                     <img src="./assets/images/bg_form.svg" alt="Фон" loading="lazy">
-                    <form action>
-                        <input type="text" placeholder="Имя*">
-                        <input type="text" placeholder="@Почта*">
-                        <input type="text" placeholder="Тел">
+                    <form action id="connectionForm">
+                        <input type="text" placeholder="Имя*" id="connectionFormName">
+                        <input type="email" placeholder="@Почта*" id="connectionFormEmail">
+                        <input type="number" placeholder="Тел" id="connectionFormPhone">
                         <textarea name="form_connection_message"
                             id="formConnectionMessage" cols="1"
                             rows="3" placeholder="Задать вопрос"></textarea>
@@ -448,12 +452,12 @@
                                 течение 15 минут</span>
                             <h2>Команда Alpha marketing</h2>
                         </div>
-                        <form action>
-                            <input type="text" placeholder="Имя*">
-                            <input type="text" placeholder="@Почта*">
-                            <input type="text" placeholder="Тел">
+                        <form action  id="connectionFormDesctop">
+                            <input type="text" placeholder="Имя*" id="connectionFormDesktopName">
+                            <input type="email" placeholder="@Почта*" id="connectionFormDesktopNameEmail">
+                            <input type="nimber" placeholder="Тел" id="connectionFormDesktopPhone">
                             <textarea name="form_connection_message"
-                                id="formConnectionMessage" cols="1"
+                                id="formConnectionDesktopMessage" cols="1"
                                 rows="3"
                                 placeholder="Задать вопрос"></textarea>
                             <input type="submit" class="submit-button"
@@ -549,6 +553,33 @@
                 <span>Политика конфиденциальности</span>
             </div>
         </footer>
+        
+        <div class="pagecrm_modal-window_form_connect pagecrm_modal-form" id="priceForm">
+                <form action="" id="modalFormConnaction">
+                    <h2>Форма для заполнения</h2>
+                    <span>
+                        Оставьте свои контактные данные, и мы свяжемся с Вами в течение 20 минут
+                    </span>
+                    <input type="text" placeholder="Имя*">
+                    <input type="text" placeholder="@Почта*">
+                    <input type="submit" class="submit-button" value="Отправить заявку">
+                </form>
+        </div>
+        <div class="pagecrm_modal-window_notification pagecrm_modal-form">
+            <div class="pagecrm_modal-window_form" id="messageSuccessfull">
+                <form action="">
+                    <div class="pagecrm_modal-window_form_images">
+                        <img src="./assets/images/tools/mark_sucsessfull.svg" alt="Иконка галочки">
+                        <div class="pagecrm_modal-window_form_images_cross">                          
+                            <img src="./assets/images/tools/cross.svg" alt="Иконка крестика" class="cross">  
+                        </div>
+                    </div>
+                    <h2>Ваша заявка успешно отправлена!</h2>
+                </form>
+            </div>
+        </div>
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <script src="./assets/js/jQueryExemple.js"></script>
         <script src="./assets/js/script.js"></script>
     </body>
 </html>

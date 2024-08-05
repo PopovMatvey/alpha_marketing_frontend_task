@@ -87,15 +87,20 @@
     padding: 10px 0px 0px;
 }
 
-.more-button span {
+.more-button a {
     width: 50%;
     text-align: center;
     padding: 10px;
     border-radius: 10px;
     border: 1px solid transparent;
+    color: #FFF;
     background: linear-gradient(#1c0040, #1c0040) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
     box-shadow: 0px 0px 10px #D795FF;
     transition: .5s all;
+}
+
+.more-button a:visited{
+    color: #FFF;
 }
 
 .more-button :hover {

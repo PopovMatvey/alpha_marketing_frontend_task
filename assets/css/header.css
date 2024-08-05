@@ -1,6 +1,6 @@
 header {
     font-family: "PlayRegular";
-    padding: 10px;
+    /* padding: 10px; */
     color: #FFF;
 }
 
@@ -41,7 +41,7 @@ header a:hover {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 10px;
+    padding-top: 80px;
 }
 
 .header-mobile {
@@ -113,20 +113,19 @@ header a:hover {
     display: none;
 }
 
-.pagecrm_footer-desktop__contacts-container__menu img:hover{
+.pagecrm_footer-desktop__contacts-container__menu img:hover {
     cursor: pointer;
 }
 
 @media screen and (min-width:990px) {
-    header {
-        background: #1d01414d;
-    }
-
     .pagecrm_header-desktop {
+        position: fixed;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 10px;
+        background: #1d01414d;
     }
 
     .pagecrm_header__logo-desktop img {
