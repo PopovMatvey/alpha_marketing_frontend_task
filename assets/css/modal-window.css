@@ -30,7 +30,7 @@
     background: linear-gradient(#b77eff, #b77eff) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
     box-shadow: 0px 0px 10px #D795FF;
     backdrop-filter: blur(50px);
-    width: 100%;
+    width: 75%;
     border-radius: 20px;
     padding: 20px;
     gap: 10px;
