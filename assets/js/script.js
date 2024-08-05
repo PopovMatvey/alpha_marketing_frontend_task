@@ -99,14 +99,14 @@ if (window.innerHeight > 990) {
 
 
 
-window.addEventListener('scroll', (_event) => {
-    var elem = document.querySelector('.pagecrm_header-desktop');
-    var y = scrollY;
-    if ((y < 100) && (window.innerHeight > 990)) {
-        elem.style.height = "70px";
-    } else {
-        elem.style.height = "50px";
-    }
-});
+// window.addEventListener('scroll', (_event) => {
+//     var elem = document.querySelector('.pagecrm_header-desktop');
+//     var y = scrollY;
+//     if ((y < 100) && (window.innerHeight > 990)) {
+//         elem.style.height = "70px";
+//     } else {
+//         elem.style.height = "50px";
+//     }
+// });
 
 setSubmitLisenersOnForms(formsArray);

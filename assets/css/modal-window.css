@@ -26,16 +26,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    top: 50%;
-    left: 30%;
-    width: 70%;
     border: 1px solid transparent;
     background: linear-gradient(#b77eff, #b77eff) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
     box-shadow: 0px 0px 10px #D795FF;
     backdrop-filter: blur(50px);
+    width: 100%;
     border-radius: 20px;
     padding: 20px;
+    gap: 10px;
+    top: 50%;
+    left: 30%;
+}
+
+@media screen and (min-width:990px) {
+    .pagecrm_modal-form form {
+        left: 40%;
+    }
 }
 
 .pagecrm_modal-form form span {
