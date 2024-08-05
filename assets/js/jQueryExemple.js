@@ -53,5 +53,3 @@ $("#slideMenu").on("click", (_event) => {
 $(".pagecrm_header-mobile_slide-panel").on("click", (_event)=>{
     hideModalWindow("pagecrm_header-mobile_slide-panel");
 });
-
-$('.email-connection-form').inputmask("email");
